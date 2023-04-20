@@ -5,7 +5,12 @@ module.exports = {
   './src/**/*.{js,jsx,ts,tsx}' //esto también es una forma de englobar subdirectorios
   ],
   theme: {
-  extend: {}
+  extend: {
+    backgroundImage:{
+      'fondo':"url('./assets/images/fondo-minga.png')",
+      'orange':"url('./assets/images/rectangulo.png')"
+    }
+  }
   },
   variants: {},
   plugins: []
