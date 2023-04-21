@@ -7,41 +7,32 @@ import Boys from './assets/images/image2-minga.png'
 import footer from './assets/images/footer-minga.png'
 import Logo2 from './assets/images/Logo-Dos.png'
 import Facebook from './assets/images/Facebook.png'
- import Twitter from './assets/images/Twitter.png'
- import Vimeo from './assets/images/Vimeo.png' 
+import Twitter from './assets/images/Twitter.png'
+import Vimeo from './assets/images/Vimeo.png' 
 import Youtube from './assets/images/Youtube.png'
 import Heart from './assets/images/corazon.png'
 
 
-
-
-
-
-
-
 function App() {
   const [count, setCount] = useState(0)
-
   return (
    <body >
-    <header className=" bg-fondo bg-hero bg-contain bg-no-repeat h-screen w-[100%] flex flex-col justify-around items-center  ">
+    <header className=" bg-fondo bg-cover  bg-no-repeat h-full w-[100%] flex flex-col justify-around items-center    min-[320px]: max-[725px]:h-screen">
    
       <nav className="flex text-center  justify-between  items-center w-[92%] h-32  ">
-      <img className="h-10" src={MenuMinga} alt="menu" />
+      <img className=" h-10" src={MenuMinga} alt="menu" />
       <img className="h-10" src={LogoMinga} alt="logo" />
       </nav>
       <div className=" h-[40%]  w-[92%] ">
         <h2 className="text-white text-6xl   font-['Poppins']  " >For the love of manga</h2>
         <h4 className="text-white text-3xl ">Explore our varieties</h4>
-        <p className="text-white text-2xl ">#MingaLove❤</p>
-        <button className=" text-orange-500 rounded-2xl  h-12  w-60 mt-4 bg-white">Let’s go!</button>
+        <p className="text-white text-2xl min-[320px]:text-center max-[725px]:hidden ">#MingaLove❤</p>
+        <button className=" text-orange-500 rounded-2xl  h-12  w-60 mt-4 bg-white " >Let’s go!</button>
       </div>
-      <div className=' h-24 '>
-     
-
+      <div className=' h-24  '>
       </div>
-    </header>
-    <main className=" flex h-screen content-center items-center  justify-center "> 
+    </header >
+    <main className=" flex h-screen content-center items-center  justify-center min-[320px]:text-center max-[725px]:hidden "> 
 <div className=" bg-orange-500 h-64  w-[83%]  flex justify-around items-center ">
   <img className="h-60 mb-16" src={Girl} alt="girl " />
   <img className="h-60  mb-20"src={Boys} alt="boy" />
@@ -51,7 +42,7 @@ function App() {
   </div>
 </div>
     </main>
-    <footer className=' h-screen  '>
+    <footer className=' h-screen min-[320px]:text-center max-[725px]:hidden '>
     <img className='rounded-[50%_50%_48%52%/_0%_0%_100%_100%] w-[100%]' src={footer} alt="" />
      
       <div className=' h-48 w-[100%] mt-20 flex  items-center  justify-between'>

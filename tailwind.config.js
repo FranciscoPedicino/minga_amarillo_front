@@ -8,8 +8,12 @@ module.exports = {
   extend: {
     backgroundImage:{
       'fondo':"url('./assets/images/fondo-minga.png')",
-      'orange':"url('./assets/images/rectangulo.png')"
-    }
+      'orange':"url('./assets/images/rectangulo.png')",
+
+    },
+    height: {
+      '128': '50vh',
+    },
   }
   },
   variants: {},
