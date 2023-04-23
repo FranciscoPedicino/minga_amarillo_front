@@ -23,13 +23,13 @@ function App() {
    <body >
     <header className=" bg-fondo bg-cover  bg-no-repeat h-screen w-[100%] flex flex-col  justify-evenly items-center    min-[320px]: max-[540px]:h-screen w-screen object-cover  flex justify-between ">
    
-      <nav className="flex text-center  justify-between  items-center w-[92%] h-32  border border-white  ">
+      <nav className="flex text-center  justify-between  items-center w-[92%] h-32    ">
         
       <img className=" h-10   " src={MenuMinga} alt="menu" /> 
       <img className="h-10 max-[540px]:hidden " src={LogoMinga} alt="logo" />      
        <img className="h-8 min-[541px]:hidden " src={logo_responsive} alt="" /> 
       </nav>
-      <div className=' border border-white  h-[20rem]  w-scren items-center flex flex-col    sm:mb-0 sm:w-5/6 sm:items-start'> 
+      <div className='  h-[20rem]  w-scren items-center flex flex-col    sm:mb-0 sm:w-5/6 sm:items-start'> 
            <h1 className= '  text-white font-bold text-3xl w-[80%]  text-center  sm:text-6xl sm:w-[70%] sm:text-left'>For the love of  manga</h1>
           <h2 className='mt-5   text-xl  text-white font-semibold  p-2 text-center sm: text-3xl  sm:font-normal'>Explore our varieties</h2>
           <h4 className='mt-5 text-2xl text-white hidden font-semibold  sm:block'>#MingaLove❤</h4>
