@@ -15,7 +15,7 @@ import right from './assets/images/right-circle.png'
 import left from './assets/images/left-circle.png'
 import logo_responsive from './assets/images/logo-responsive.png'
 
-
+import apiUrl from '../api'
 
 function App() {
   const [count, setCount] = useState(0)
