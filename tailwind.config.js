@@ -13,7 +13,11 @@ module.exports = {
     },
     height: {
       '128': '50vh',
-    },
+    },screens:{
+      'xsm': {'min': '319px', 'max': '639px'},
+      
+    }
+
   }
   },
   variants: {},

@@ -11,13 +11,14 @@ import Main from './layoust/Main'
 function App() {
   const [count, setCount] = useState(0)
   return (
-   <body  >
+   <>
     <Main>
+
     < Index/>
+
     </Main>
-   
-   </body>
-   
+    </>
+
   )
 }
 
