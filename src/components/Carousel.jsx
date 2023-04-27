@@ -1,5 +1,4 @@
-import Girl from '../assets/images/img1-minga.png'
-import Boys from '../assets/images/image2-minga.png'
+
 import right from '../assets/images/right-circle.png'
 import left from '../assets/images/left-circle.png'
 import React from 'react'
